@@ -30,8 +30,8 @@ namespace GuessingGame
             {
                 Console.Write("What is your Guess?: "); // input guess
 
-                string s1 = Console.ReadLine();
-                usrguess = int.Parse(s1);
+                string s1 = Console.ReadLine(); // putting input guess in string
+                usrguess = int.Parse(s1); // to convert the users guess from a string to a integer
 
                 if (usrguess == randnum)
                 {
@@ -44,16 +44,16 @@ namespace GuessingGame
                 else if (usrguess > randnum)
                 {
                     Console.WriteLine("Your guess is higher than the number");
-                    guesses += 1;
+                    guesses += 1; // adding guess
                 }
                 else if (usrguess < randnum)
                 {
                     Console.WriteLine("Your guess is lower than the number");
-                    guesses += 1;
+                    guesses += 1; // adding guess
                 }
                 else
                 {
-                    Console.WriteLine("I do not understand your input, Guess not counted.");
+                    Console.WriteLine("I do not understand your input, Guess not counted."); // incase of incorrect input such as alphabets
                 }
 
             }
