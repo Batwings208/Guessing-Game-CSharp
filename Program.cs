@@ -18,9 +18,9 @@ namespace GuessingGame
 
             Console.WriteLine("Hello, Welcome to... the Guessing Game!");
             Thread.Sleep(1000); // stop for 3 seconds
-            Console.WriteLine("You will recieve 5 tries to guess the number I'm thinking.");
+            Console.WriteLine("You will receive 5 tries to guess the number I'm thinking.");
             Thread.Sleep(1000);
-            Console.WriteLine("Everytihng I you answer, I will tell you if you were too high or too low.");
+            Console.WriteLine("Everything I you answer, I will tell you if you were too high or too low.");
             Thread.Sleep(1000);
             Console.WriteLine("Good Luck, and let the games begin!");
             Thread.Sleep(1000);
